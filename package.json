@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello"
+    "test": "echo hello",
+    "eslint": "eslint './src/' --ext .js",
+    "eslint-fix": "pnpm run eslint --fix"
   },
   "keywords": [],
   "author": "",

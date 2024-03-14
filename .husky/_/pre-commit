@@ -14,6 +14,6 @@ done
 
 if [ "$failed" -ne "0" ]; then
   echo "ESLint failed on some staged file(s), Please check your code and try again."
-  echo "You can run ESLint manually via 'yarn run eslint' or 'yarn run eslint --fix'\n"
+  echo "You can run ESLint manually via 'npm run eslint' or 'npm run eslint --fix'\n"
   exit 1 # exit with failure status
 fi
